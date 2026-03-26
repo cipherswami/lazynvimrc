@@ -1,0 +1,54 @@
+# =========================
+# Neovim runtime artifacts
+# =========================
+# swap / undo / backup
+*.swp
+*.swo
+*.swn
+*.un~
+*.bak
+*.tmp
+
+# persistent undo (if enabled)
+undo/
+
+# =========================
+# OS / editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / sessions
+# =========================
+*.log
+session.vim
+Session.vim
+
+# =========================
+# Lazy.nvim / plugin artifacts (DO NOT track)
+# =========================
+# Only ignore if they accidentally exist inside repo
+lazy-lock.json
+lazyvim.json
+
+# =========================
+# Local overrides (optional)
+# =========================
+# Useful if you keep machine-specific config
+lua/local.lua
+lua/user.lua
+lua/custom.lua
+
+# =========================
+# LSP / tooling cache (if misplaced in repo)
+# =========================
+.mason/
+.lsp/
+.cache/
+
+# =========================
+# Test / temp files
+# =========================
+tmp/
+temp/
