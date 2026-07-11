@@ -7,4 +7,9 @@ return {
       scope = { enabled = false },
     },
   },
+  {
+    "rafamadriz/friendly-snippets",
+    enabled = false,
+  },
 }
+
